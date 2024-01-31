@@ -1,0 +1,19 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\whawo\OneDrive\Escritorio\javarepaso\Triqui\Gato.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\whawo\OneDrive\Escritorio\javarepaso\Triqui\.
+Requires JDK:	Yes
+Requires 64-Bit: No
+Java min ver:	1.021.000
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jdk-21
+Check launcher:	C:\Program Files\Java\jdk-21\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-21\bin\javac.exe (OK)
+Version string: 1.021.000_002 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-21\bin\javaw.exe
+Launcher args:	-jar "C:\Users\whawo\OneDrive\Escritorio\javarepaso\Triqui\Gato.exe"
+Args length:	68/32768 chars
+Exit code:	0

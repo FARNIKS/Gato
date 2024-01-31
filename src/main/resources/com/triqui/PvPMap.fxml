@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="561.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.triqui.controller.PvPModeController">
+   <children>
+      <ImageView fitHeight="4.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 142; -fx-scale-y: 141; -fx-translate-y: 258;">
+         <image>
+            <Image url="@../../img/BackgroundMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 209; -fx-scale-y: 260; -fx-scale-x: 260; -fx-translate-x: 1;">
+         <image>
+            <Image url="@../../img/GatoBoard.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="340.0" spacing="20.0" style="-fx-translate-y: -15;">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <Button fx:id="btnHome" contentDisplay="BOTTOM" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent;" text="HOME" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fx:id="imgHome" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Home.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Monocraft" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnMode" contentDisplay="BOTTOM" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent;" text="MODE" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fx:id="imgMode" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Mode.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Monocraft" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnMusic" contentDisplay="BOTTOM" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent;" text="MUSIC" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fx:id="imgMusic" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Music.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Monocraft" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnExit" contentDisplay="BOTTOM" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent;" text="EXIT" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fx:id="imgExit" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Exit.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Monocraft" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="248.0" prefWidth="340.0">
+         <children>
+            <GridPane alignment="CENTER" prefHeight="246.0" prefWidth="269.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <VBox.margin>
+                  <Insets left="45.0" right="45.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="btn00" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-scale-x: 1; -fx-opacity: 1;">
+                     <graphic>
+                        <ImageView fx:id="space00" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 1; -fx-translate-y: -4;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn01" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-opacity: 1;" GridPane.columnIndex="1">
+                     <graphic>
+                        <ImageView fx:id="space01" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 2; -fx-translate-y: -4;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn02" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-opacity: 1; -fx-background-color: transparent;" GridPane.columnIndex="2">
+                     <graphic>
+                        <ImageView fx:id="space02" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 4; -fx-translate-y: -4;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn10" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-opacity: 1;" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fx:id="space10" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: -1; -fx-scale-y: 1;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn11" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-opacity: 1;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fx:id="space11" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: -1; -fx-translate-x: 2;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn12" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-opacity: 1;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fx:id="space12" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 4; -fx-translate-y: -1;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn20" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-opacity: 1; -fx-background-color: transparent;" GridPane.rowIndex="2">
+                     <graphic>
+                        <ImageView fx:id="space20" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 2;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn21" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-opacity: 1;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <graphic>
+                        <ImageView fx:id="space21" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 2; -fx-translate-y: 2;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn22" mnemonicParsing="false" onMouseClicked="#turnBasedLogic" style="-fx-background-color: transparent; -fx-opacity: 1;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <graphic>
+                        <ImageView fx:id="space22" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 4; -fx-translate-y: 2;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../../img/SpaceTransparent.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="91.0" prefWidth="340.0" style="-fx-translate-y: 20;">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <VBox alignment="CENTER" prefHeight="66.0" prefWidth="72.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" prefHeight="111.0" prefWidth="135.0" text="POINTS" textAlignment="CENTER" textFill="#ebebeb">
+                     <font>
+                        <Font name="Monocraft" size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="31.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 2; -fx-scale-y: 2;">
+                           <image>
+                              <Image url="@../../img/ImgX.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Label>
+                  <Label fx:id="labelWinsX" text="0" textFill="#ebebeb">
+                     <font>
+                        <Font name="Monocraft" size="18.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="91.0" prefWidth="132.0">
+               <children>
+                  <Button fx:id="btnRestart" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fx:id="imgRestart" fitHeight="60.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/Restart.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="91.0" prefWidth="72.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" text="POINTS" textAlignment="CENTER" textFill="#ebebeb">
+                     <font>
+                        <Font name="Monocraft" size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="33.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 1.5; -fx-scale-y: 1.5;">
+                           <image>
+                              <Image url="@../../img/ImgO.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Label>
+                  <Label fx:id="labelWinsO" text="0" textFill="#ebebeb">
+                     <font>
+                        <Font name="Monocraft" size="16.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <ImageView fx:id="img" fitHeight="94.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-y: 0.90; -fx-translate-y: 15;">
+         <image>
+            <Image url="@../../img/DefaultMap.png" />
+         </image></ImageView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

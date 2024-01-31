@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="561.0" prefWidth="360.0" style="-fx-background-color: #222034;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.triqui.controller.ModeController">
+   <children>
+      <HBox prefHeight="23.0" prefWidth="285.0" spacing="10.0" style="-fx-translate-y: -5; -fx-translate-x: 0; -fx-view-order: -1;">
+         <children>
+            <RadioButton fx:id="rbEasy" mnemonicParsing="false" selected="true" text="EASY" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="difficulty" />
+               </toggleGroup>
+               <font>
+                  <Font name="Monocraft" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </RadioButton>
+            <RadioButton fx:id="rbMedium" mnemonicParsing="false" text="MEDIUM" textFill="WHITE" toggleGroup="$difficulty">
+               <font>
+                  <Font name="Monocraft" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></RadioButton>
+            <RadioButton fx:id="rbImpossible" mnemonicParsing="false" text="IMPOSSIBLE" textFill="WHITE" toggleGroup="$difficulty">
+               <font>
+                  <Font name="Monocraft" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></RadioButton>
+         </children>
+         <VBox.margin>
+            <Insets right="35.0" />
+         </VBox.margin>
+      </HBox>
+      <ImageView fitHeight="1.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 18; -fx-translate-x: 300; -fx-rotate: 15; -fx-scale-y: 30; -fx-scale-x: 40; -fx-view-order: -1;">
+         <image>
+            <Image url="@../../img/TitleCpu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 18; -fx-translate-x: 20; -fx-rotate: -15; -fx-scale-y: 30; -fx-scale-x: 40; -fx-view-order: -1;">
+         <image>
+            <Image url="@../../img/TitlePlayer1.png" />
+         </image>
+      </ImageView>
+      <VBox accessibleRole="IMAGE_VIEW" alignment="TOP_CENTER" prefHeight="268.0" prefWidth="320.0">
+         <children>
+            <ImageView fx:id="imgDifficulty" fitHeight="164.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-y: 1.44; -fx-scale-x: 1.50; -fx-translate-y: 50; -fx-translate-x: 2; -fx-view-order: 2;">
+               <image>
+                  <Image url="@../../img/P1vsCpuF.gif" />
+               </image></ImageView>
+            <Button fx:id="btnStartCpu" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent; -fx-translate-y: 40;">
+               <graphic>
+                  <ImageView fx:id="imgStartCpu" fitHeight="57.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Start.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnMusic" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" style="-fx-background-color: transparent; -fx-scale-y: 1.2; -fx-scale-x: 1.2; -fx-translate-y: -245; -fx-translate-x: 150;">
+               <graphic>
+                  <ImageView fx:id="imgMusic" fitHeight="1.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 30; -fx-scale-y: 30;">
+                     <image>
+                        <Image url="@../../img/Music.png" />
+                     </image>
+                     <effect>
+                        <Glow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="1.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 15; -fx-translate-x: 300; -fx-rotate: 20; -fx-scale-y: 30; -fx-scale-x: 40; -fx-view-order: -1;">
+         <image>
+            <Image url="@../../img/TitlePlayer2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-y: 10; -fx-translate-x: 20; -fx-rotate: -15; -fx-scale-y: 30; -fx-scale-x: 40; -fx-view-order: -1;">
+         <image>
+            <Image url="@../../img/TitlePlayer1.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="263.0" prefWidth="321.0" style="-fx-translate-y: 10;">
+         <children>
+            <ImageView fx:id="imgPvP" fitHeight="93.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true" style="-fx-scale-y: 2.60; -fx-scale-x: 2.6; -fx-translate-x: 1; -fx-translate-y: -15;">
+               <image>
+                  <Image url="@../../img/P1vsP2.gif" />
+               </image></ImageView>
+            <Button fx:id="btnPvP" mnemonicParsing="false" onMouseClicked="#eventButtons" onMouseEntered="#mouseEnterButtons" onMouseExited="#mouseExitButtons" prefHeight="45.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-translate-y: 20;">
+               <graphic>
+                  <ImageView fx:id="imgStartP2" fitHeight="50.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/Start.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
