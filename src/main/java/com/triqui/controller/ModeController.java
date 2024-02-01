@@ -166,7 +166,7 @@ public class ModeController implements Initializable {
             changePage.loadStage(getModeGame()+".fxml",mouseEvent, getPageTitle());
             mediaPlayer.stop();
         } else if (sourceButton == btnPvP) {
-            changePage.loadStage("PvPMap.fxml",mouseEvent,"P1 vs P2");
+            changePage.loadStage("PvPMode.fxml",mouseEvent,"P1 vs P2");
             mediaPlayer.stop();
         } else if (sourceButton==btnMusic){
             muteMusicEvent(mouseEvent);
