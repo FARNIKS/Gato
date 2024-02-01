@@ -4,9 +4,10 @@
    <img src="https://img.shields.io/badge/ESTADO-FINALIZADO-brightgreen">
    
 </p>
-
+<p align="center">
+	
 ![image](https://github.com/FARNIKS/Gato/assets/128429185/98b38b0e-bf4d-4118-971a-e969b711e267)
-
+</p>
 Este es un juego llamado *gato, tres en linea, Tic Tac Toe, etc.* El objetivo es completar una linea de 3 con círculos o cruces en un tablero de *3x3*, siendo por turnos dependiendo del modo de juego.
 - PvP
 - CPU Easy, Medium y Impossible. 
@@ -15,9 +16,10 @@ Este es un proyecto de practica de java siendo un reto por el uso de la interfaz
 
 ## Modos de juego 
 Los distintos modos de Gato son 
-
+<p align="center">
+	
 ![image](https://github.com/FARNIKS/Gato/assets/128429185/cdf5b8ce-5c27-4702-94e3-888daf020def)
-
+</p>
 - **PvP:** Es el modo donde cada jugador tiene su turno para poder completar su tres en linea
 - **CPU:** Es con una lógica por algoritmos y se vuelve mas complicado dependiendo de la dificulta
 	- *CPU Easy:* Después del turno del jugador la CPU solo hará una jugada aleatoria
