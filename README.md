@@ -20,11 +20,11 @@ Los distintos modos de Gato son
 <img src=https://private-user-images.githubusercontent.com/128429185/301374527-cdf5b8ce-5c27-4702-94e3-888daf020def.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NTgyMzUsIm5iZiI6MTcwNjc1NzkzNSwicGF0aCI6Ii8xMjg0MjkxODUvMzAxMzc0NTI3LWNkZjViOGNlLTVjMjctNDcwMi05NGUzLTg4OGRhZjAyMGRlZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwMzI1MzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OWY2NDkxNDVmMjMwNDkxZjhhMmU0ZjJiYTM4MjU2ZTBhNzYxNjMyMDg0YTM5ZTQ3ZTU4MDgxYzA5MjNhZTY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.fsj7ENmOsBzKTjsQFxmtcxu63X6uAQL9XKZOht63EoQ>
 </p>
 
-- PvP: Es el modo donde cada jugador tiene su turno para poder completar su tres en linea
-- CPU: Es con una lógica por algoritmos y se vuelve mas complicado dependiendo de la dificulta
-	- CPU Easy: Después del turno del jugador la CPU solo hará una jugada aleatoria
-	- CPU Medium: En este modo la CPU solo defiende jugadas simples haciéndolo mas complejo para poder ganar
-	- Impossible:  La dificultad aumenta drásticamente porque ahora la CPU defiende jugadas y también juega, haciendo q la posibilidad de ganar sea casi nula 
+- **PvP:** Es el modo donde cada jugador tiene su turno para poder completar su tres en linea
+- **CPU:** Es con una lógica por algoritmos y se vuelve mas complicado dependiendo de la dificulta
+	- *CPU Easy:* Después del turno del jugador la CPU solo hará una jugada aleatoria
+	- *CPU Medium:* En este modo la CPU solo defiende jugadas simples haciéndolo mas complejo para poder ganar
+	- *Impossible:*  La dificultad aumenta drásticamente porque ahora la CPU defiende jugadas y también juega, haciendo q la posibilidad de ganar sea casi nula 
 
 # Requisitos
 - Java [Development Kit](https://www.java.com/es/download/ie_manual.jsp)  (JDK) 1.8 o mas.
