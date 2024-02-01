@@ -5,8 +5,8 @@
    
 </p>
 <p align="center">
+	<img src=https://private-user-images.githubusercontent.com/128429185/301374346-98b38b0e-bf4d-4118-971a-e969b711e267.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NTgyMzUsIm5iZiI6MTcwNjc1NzkzNSwicGF0aCI6Ii8xMjg0MjkxODUvMzAxMzc0MzQ2LTk4YjM4YjBlLWJmNGQtNDExOC05NzFhLWU5NjliNzExZTI2Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwMzI1MzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xODc3OTg2YjBmOTMzZGU4N2Q2YTY5MjA4OTM0MzMxNzk2M2Q0OWIyZDA5YzY0NjBiM2MxNDJkNGMwODg3NmNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.q4gauJwqkqHY8UnmtMq16vo_ltDfLojy7rWPxsFjfuI>
 	
-![image](https://github.com/FARNIKS/Gato/assets/128429185/98b38b0e-bf4d-4118-971a-e969b711e267)
 </p>
 Este es un juego llamado *gato, tres en linea, Tic Tac Toe, etc.* El objetivo es completar una linea de 3 con círculos o cruces en un tablero de *3x3*, siendo por turnos dependiendo del modo de juego.
 - PvP
